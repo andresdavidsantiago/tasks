@@ -1,0 +1,3 @@
+- Crear una nueva base de datos con  el nombre aplicacion
+- Crear una tabla con el nombre tasks
+CREATE TABLE `aplicacion`.`tasks` (`id` INT NOT NULL AUTO_INCREMENT , `tarea` VARCHAR(250) NOT NULL , `completada` TINYINT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
